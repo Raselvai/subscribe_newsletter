@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+	background: #0E0523;
+}
+
+/*
+
+
+
+
+#93a1a2
+*/
+
+.newsletter_wrap {
+	padding: 80px 0;
+}
+
+.newsletter_box {
+	padding: 20px 50px 50px 50px;
+	border-radius: 10px;
+	background: linear-gradient(to right, #fd5251, #ffad4b);
+}
+
+.newsletter_box span {
+	font-size: 14px;
+	color: #ffffff;
+	margin: 30px 0 10px 0;
+	display: block;
+}
+
+.newsletter_box h2 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.subscribe_form {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background: #ffffff;
+	margin-top: 30px;
+}
+
+.subscribe_form input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: transparent;
+	padding-left: 20px;
+}
+
+.subscribe_form button {
+	width: 150px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #250449;
+	color: #ffffff;
+	border: transparent;
+	font-size: 14px;
+	transition: .3s;
+}
+
+.subscribe_form button:hover {
+	background: #fc097c;
+}
